@@ -46,7 +46,60 @@ throughout the program execution .
 | --- | --- |
 | Initialization | the process of assigning the value to a variable is known as initialization | 
 
-## Strongly Vs Weakly typed
+## Strongly Vs Weakly Typed
+
+| Strongly | In a strongly typed language, the data type of a variable is enforced at compile-time. This means that the compiler checks for type compatibility and raises an error if there's a type mismatch.Strongly typed languages provide more safety and prevent many common programming errors related to data type mismatches.|
+| --- | --- |
+| Weakly | In a weakly typed language, the data type of a variable can be changed implicitly during runtime. Type conversions may happen automatically without explicit instructions from the programmer. Weakly typed languages offer more flexibility but can lead to unexpected behavior and errors if type conversions are not handled carefully.| 
+
+## How to check data types of variable
+
+| Language | Syntax |
+| --- | --- |
+| c++ | typeid(_varibale_name).name( ); |
+| python | type( )<br>isinstance( ) |
+| javascript | typeof | 
+
+## Case Sensitive
+
+Almost all programming languages care case-sensitive for variable names : 
+
+> age  = 19 <br>
+> Age  = 27 
+
+In the above code snippet bothe `age` & `Age` are different variables .
+
+## Naming Rules Of Variables
+
+All variables must be identified with unique names . These unique names are called identifiers . 
+
+Identifiers can be short names ( x and y ) or more descriptive names ( age, sum, totalVolume ) . It is recommended to use descriptive names in order to create understandable and maintainable code . 
+
+// good<br>
+`const  minutesPerHour = 60 ;`
+
+// ok, but not so easy to understand<br>
+`const m = 60 ;` 
+
+> The general rules for naming variables are : 
+
+>>- Names can contains letters, digits and underscore 
+>> - Names must begin with a letter or an underscore ( _ ) 
+>> - Names are case-sensitive ( myVar and MYVAR ) are different variables
+>> - Names cannot contain whitespaces or special characters like !, #, %, etc , except  underscore(_) . 
+>> - Reserved keywords can’t be used as identifiers names . 
+
+Variable names with more than one word can be difficult to read. There are several techniques we can use to make them more readable :
+
+`Camel case` : Each word, except the first, strats with a capital letter :<br>
+firstName = ‘John’<br>
+`Pascal case` : Each word starts with a capital letter :<br>
+FirstName = ‘John’<br>
+`Snake case` : Each word is separated by an underscore character :<br>
+first_name = ‘John’
+
+
+
 
 
 
