@@ -5,7 +5,7 @@ The input mechanism used to get inputs from the standard input-devices (keyboard
 
 Output can take various forms depending on the nature of the program and its intended purpose : 
 
-**Console Output**     : This is text or data that is displayed in the console or 
+`Console Output`     : This is text or data that is displayed in the console or 
                          command-line interface . 
 
 **Graphical Output**   : In applications with a graphical user interface ( GUI ) , output can be visual elements 
