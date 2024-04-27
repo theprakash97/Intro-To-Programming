@@ -1,8 +1,5 @@
 
-# index #
-
----
-
+# index 
 
 > - Intro to variable 
 > - Statically typed Vs Dynamically typed 
