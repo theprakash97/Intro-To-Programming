@@ -8,19 +8,19 @@ Output can take various forms depending on the nature of the program and its int
 `Console Output`     : This is text or data that is displayed in the console or 
                          command-line interface . 
 
-**Graphical Output**   : In applications with a graphical user interface ( GUI ) , output can be visual elements 
+`Graphical Output`   : In applications with a graphical user interface ( GUI ) , output can be visual elements 
                          such as :  windows, buttons, images, charts, graphs, or animations. 
 
-**Files**              : Programs often produce output that is stored in files on disk. This can include text files, 
+`Files`              : Programs often produce output that is stored in files on disk. This can include text files, 
                          binary files, databases, spreadsheets, images, audio files, and more. File output allows programs to save data for later use, share it with other programs, or provide it to users in a persistent format.
 
-**Network Output**     : Some programs generate output that is transmitted over a network to other devices or systems. 
+`Network Output`     : Some programs generate output that is transmitted over a network to other devices or systems. 
                          This can include sending data to servers, communicating with other programs through APIs (Application Programming Interfaces), or streaming media content over the internet.
 
-**Hardware output**    : In embedded systems or low-level programming, output can involve controlling hardware 
+`Hardware output`    : In embedded systems or low-level programming, output can involve controlling hardware 
                          components  such as LEDs, motors, sensors, displays, or actuators. Programs send signals or commands to these devices to produce physical effects in the real world.
 
-**Error output**       : When a program encounters an error or exception, it may produce error messages or 
+`Error output`       : When a program encounters an error or exception, it may produce error messages or 
                          diagnostic information to help identify and troubleshoot the problem. Error output is typically displayed in the console or logged to a file for later analysis.
 
 
