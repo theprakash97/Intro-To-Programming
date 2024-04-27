@@ -1,6 +1,5 @@
 
 # index 
-
 > - Intro to variable 
 > - Statically typed Vs Dynamically typed 
 > - Syntax of variable 
@@ -18,8 +17,6 @@
 
 
 ## Intro To Variable 
-
-
 Variable is the name of memory location to store data, which may get modified 
 throughout the program execution . 
 
