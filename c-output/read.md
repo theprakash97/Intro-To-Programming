@@ -42,7 +42,7 @@ Output can take various forms depending on the nature of the program and its int
 >> - flush       :- (optional) ; boolean specifying if the output is flushed or buffered,  
             the default: False. 
 >
-The print() function, by default, adds a new-line at the end of the after printing message . 
+> The print() function, by default, adds a new-line at the end of the after printing message . 
 
 
 > In c++            := cout << “message” << endl; 
