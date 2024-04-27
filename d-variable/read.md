@@ -25,8 +25,7 @@ throughout the program execution .
 
 | Language | Variable Information |
 | --- | --- |
-| c++ | c++ is a strongly statically typed language , which means we must have to specify the type for variable declaration , function declaration & return type and variable expressions evaluation and  there is no binding which means we can’t use variables before they are declared .
-int userAge ;  // declare statement  | 
+| c++ | c++ is a strongly statically typed language , which means we must have to specify the type for variable declaration , function declaration & return type and variable expressions evaluation and  there is no binding which means we can’t use variables before they are declared . `int userAge;`  // declare statement  | 
 
 
 
