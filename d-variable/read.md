@@ -139,9 +139,9 @@ variable may included as part of statements and expression forms
 
 Reference variables do not store their own values, rather they store address of another variable, while normal_variables typically directly contain their own_data . 
 
-**reference_variables :** typically stores an object ( Array , Object , Map , Set , Stack , Queue , Linked list , )
+`reference_variables :` typically stores an object ( Array , Object , Map , Set , Stack , Queue , Linked list , )
 
-**normal_variables :** typically stores the primitive_values ( data of primary data types ) 
+`normal_variables :` typically stores the primitive_values ( data of primary data types ) 
 
 A reference_variable is a variable that points to the address of another variable . It represents the name, location , or value of another variable .  
 
