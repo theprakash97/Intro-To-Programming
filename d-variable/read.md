@@ -118,7 +118,63 @@ There are 2 types of scope : <br>
 | javascript | Constant variable is a variable that value should not be changed through-out the program execution.<br><br>Some programming languages provide a keyword to create a constant variable in a program :-<br>For example : In `Java` has ‘final’ and `JavaScript` has a ‘const’<br><br>Here are some key characteristics of constant variables :- <br> - The value of constant variables shouldn't be changed.<br> - The constant variable must be declared and assigned, in the same line.<br><br>for examples :- <br><br>const PI = 3.14 ;<br>const minutesPerHour = 60;<br>const BIRTH_YEAR = 1980 ;<br><br>It is considered good practice to declare constant variables with an uppercase which differentiate from normal variables. | 
 
 
-## 
+## Statements and Expression forms of variables
+
+variable may included as part of statements and expression forms 
+
+**statements :**  A line of code that instructs the compiler/interpreter to perform a specific task . statements  are usually composed of literal_value , variable , reserved_keyword , operator , or symbols . 
+
+> let txt = ‘ hy ‘ ;<br>
+> let res = txt + ‘ are you coming tonight ‘ + ‘  ? ‘ ;<br>
+>console.log(res) ; // hy are you coming tonight ? <br>
+
+**expression :** An expression is a combination of values, variables, and operators, which computes to a value . The computation is called an evaluation . 
+
+> let principal = 85000 ; 
+> let time = 2.5 ; 
+> let rate = 7 
+> let simpleInterest = ( principal * rate * time ) / 100 ; 
+
+## Reference_variable Vs Normal_variable
+
+Reference variables do not store their own values, rather they store address of another variable, while normal_variables typically directly contain their own_data . 
+
+**reference_variables :** typically stores an object ( Array , Object , Map , Set , Stack , Queue , Linked list , )
+
+**normal_variables :** typically stores the primitive_values ( data of primary data types ) 
+
+A reference_variable is a variable that points to the address of another variable . It represents the name, location , or value of another variable .  
+
+## Primitive_variable Vs Reference_variable
+
+| Variable | Description | 
+| --- | --- |
+| Primittive variable |→ Primitive variables store values in stack memory.<br>→ Primitive variables are more memory-efficient and faster to access.<br>→ Primitive variables store only single data.<br>|
+| Reference variable | → Reference variables store the address of an object.<br>→ Reference variables are more flexible.<br> → Reference variables store collection of multiple data.|
+
+## Stack Vs Heap
+
+Where is the program stored and executed in computers ? 
+So, whenever we save our program into a file ( any kind of file , say ‘ server.py ‘ ) , it automatically gets stored in the secondary storage that is the Hard Disk .The operating system’s kernel ( kernel is a file management system )  does that .
+
+When we run a program , it is loaded into the main / primary memory of the computer called RAM , the entire program is transferred to the RAM .
+ 
+| Stack | Heap |
+| --- | --- |
+| A stack is a special area of computer memory which stores temporary variables created by a function . In stack , variables are declared , stored and initialized during runtime.<br><br>It is a temporary storage memory . when the computing task is complete , the memory of the variable will be automatically erased. The stack section mostly contains methods , local variables , and reference variables.| The heap is a memory used by programming languages to store an object & have referenced from the variable of stack memory.| 
+| The stack is a data structure that follows LIFO ( Last in First Out ) principle .| The heap is a dynamically allocated memory space at runtime.|
+| When a function is called, its local variables are pushed onto the stack . When a function returns, its local variables are popped off the stack. | Objects are stored in the heap. |
+| The stack is used to store primitive data types , such as : string , number , boolean , bigint , symbol , undefined , null. | The heap is managed by the garbage collector, which automatically allocates and deallocates unused memory.<br><br>The Heap is used to store complex data structures, such as : Array , Objects , Functions . |
+| Stores primitive data types and reference_variableNmaes of an object | Stores objects |
+| Size is known at compile time | Size is known at runtime. |
+| Fixed memory allocated | Not limit for object memory |
+
+---
+
+
+
+
+
 
 
 
