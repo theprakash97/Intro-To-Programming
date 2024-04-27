@@ -5,6 +5,8 @@ The input mechanism used to get inputs from the standard input-devices (keyboard
 
 Output can take various forms depending on the nature of the program and its intended purpose  :---
 
+---
+
 `Console Output`     : This is text or data that is displayed in the console or 
                          command-line interface . 
 
@@ -22,6 +24,8 @@ Output can take various forms depending on the nature of the program and its int
 
 `Error output`       : When a program encounters an error or exception, it may produce error messages or 
                          diagnostic information to help identify and troubleshoot the problem. Error output is typically displayed in the console or logged to a file for later analysis.
+
+---
 
 
 > In python         := print( )
