@@ -32,6 +32,24 @@ throughout the program execution .
 | Statically | → Type checking is completed at compile time<br>→ Explicitly define the type declaration<br>→ Errors are detected earlier<br>→ Variable assignments are static & can’t be changed<br>→ Produce more optimized code<br>→ Slower development cycle<br>→ Type checking occurs at compile time |
 | Dynamically | → Type checking is completed at runtime<br>→ No need to explicitly specify the type declaration<br> → errors are detected later during execution<br>→ variable assignment are dynamic and can be changed<br>→ Produce less optimized code<br>→ Faster development cycle<br>→ Type checking occurs at runtime . 
 
+## Syntax Of Variable 
+
+| Language | Syntax |
+| ---      | ---    |
+| c++ | data_type varibale_name = value ; |
+| python | variballe_name = object ; |
+| javascript | variable-keyword varibale_name = value ; |
+
+## Declaration Vs Initialization 
+
+| Declaration | the process of creation of variables is known as declaration |
+| --- | --- |
+| Initialization | the process of assigning the value to a variable is known as initialization | 
+
+## Strongly Vs Weakly typed
+
+
+
 
 
 
