@@ -3,7 +3,7 @@ Both output & input mechanisms are used in programming to interact with the oute
 used to produce final-output of program for standard output-devices(terminal, files, printer, speaker, etc).
 The input mechanism used to get inputs from the standard input-devices (keyboard, scanner, mouse, touchpad, voice-command, read from files on server , etc) .
 
-Output can take various forms depending on the nature of the program and its intended purpose :heavy_minus_sign:
+Output can take various forms depending on the nature of the program and its intended purpose :---
 
 `Console Output`     : This is text or data that is displayed in the console or 
                          command-line interface . 
