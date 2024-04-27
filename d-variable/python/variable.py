@@ -57,7 +57,9 @@ main()
 
     30
     60
+    
     final score is : 12
+
     1880:495:9485
     <class 'str'>
     <class 'int'>
