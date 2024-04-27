@@ -98,6 +98,27 @@ FirstName = ‘John’<br>
 `Snake case` : Each word is separated by an underscore character :<br>
 first_name = ‘John’
 
+## Scope
+
+The scope determines the accessibility ( visibility ) of variables.<br><br>
+There are 2 types of scope : <br>
+1) Global scope
+2) Block scope 
+
+`Global variables`  : variables which are declared outside of blocks ( functions , classes , control-flow statements  ) are known as global variables . Global variables can be accessed from anywhere in programs.
+
+`Local variables`  : variables which are declared inside a block ( functions, classes , control-flow statements ) are known as local variables. Local variables can be accessed inside the block only, can’t be accessed outside of the block. Local variables are created when the block starts execution and deleted when the execution of blocks is completed .  
+
+## Constant Variables
+
+| Languge | Descriptions |
+| --- | --- |
+| c++ | The `const` keyword is used to create a constant variable (which means unchangeable and read-only)|
+| python | A CONSTANT is a special type of variable whose value cannot be changed throughout the execution of the program.<br><br>In python , the constants are usually declared and assigned in a module ( a new file containing variables , functions etc , which is imported to the main file ).<br><br>`NOTE` : In reality , we don't use constants in python. Naming constant variables in all capital letters is good convention to separate them from variables . However , it doesn't prevent reassignment. |
+| javascript | Constant variable is a variable that value should not be changed through-out the program execution.<br><br>Some programming languages provide a keyword to create a constant variable in a program :-<br>For example : In `Java` has ‘final’ and `JavaScript` has a ‘const’<br><br>Here are some key characteristics of constant variables :- <br> - The value of constant variables shouldn't be changed.<br> - The constant variable must be declared and assigned, in the same line.<br><br>for examples :- <br><br>const PI = 3.14 ;<br>const minutesPerHour = 60;<br>const BIRTH_YEAR = 1980 ;<br><br>It is considered good practice to declare constant variables with an uppercase which differentiate from normal variables. | 
+
+
+## 
 
 
 
