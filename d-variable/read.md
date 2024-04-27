@@ -82,12 +82,12 @@ Identifiers can be short names ( x and y ) or more descriptive names ( age, sum,
 `const m = 60 ;` 
 
 > The general rules for naming variables are : 
-
->>- Names can contains letters, digits and underscore 
->> - Names must begin with a letter or an underscore ( _ ) 
->> - Names are case-sensitive ( myVar and MYVAR ) are different variables
->> - Names cannot contain whitespaces or special characters like !, #, %, etc , except  underscore(_) . 
->> - Reserved keywords can’t be used as identifiers names . 
+>
+> - Names can contains letters, digits and underscore 
+> - Names must begin with a letter or an underscore ( _ ) 
+> - Names are case-sensitive ( myVar and MYVAR ) are different variables
+> - Names cannot contain whitespaces or special characters like !, #, %, etc , except  underscore(_) . 
+> - Reserved keywords can’t be used as identifiers names . 
 
 Variable names with more than one word can be difficult to read. There are several techniques we can use to make them more readable :
 
