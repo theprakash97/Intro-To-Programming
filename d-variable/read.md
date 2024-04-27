@@ -169,8 +169,6 @@ When we run a program , it is loaded into the main / primary memory of the compu
 | Size is known at compile time | Size is known at runtime. |
 | Fixed memory allocated | Not limit for object memory |
 
----
-
 
 
 
