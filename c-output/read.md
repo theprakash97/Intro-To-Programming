@@ -24,7 +24,7 @@ Output can take various forms depending on the nature of the program and its int
                          diagnostic information to help identify and troubleshoot the problem. Error output is typically displayed in the console or logged to a file for later analysis.
 
 
-- In Python           : To display something to the standard output devices, python has a built-in function 
+## In Python           : To display something to the standard output devices, python has a built-in function 
                       that is `print( )` . 
 
                      The print() function prints the specified message to the screen, or other standard output device. The message can be a string, or any other object, the object will be converted into a string before being written to the screen.
@@ -44,9 +44,9 @@ Output can take various forms depending on the nature of the program and its int
                      The print() function, by default, adds a new-line at the end of the after printing message . 
 
 
-- In C++              : cout << “message” << endl; 
+## In C++  ->  cout << “message” << endl; 
 
-- In JavaScript       : console.log(“message”); 
+## In JavaScript -> console.log(“message”); 
 
 
 
