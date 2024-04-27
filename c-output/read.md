@@ -46,7 +46,7 @@ Output can take various forms depending on the nature of the program and its int
 
 
 > In c++            := cout << “message” << endl; 
->
+
 > In javaScript     := console.log(“message”); 
 
 
