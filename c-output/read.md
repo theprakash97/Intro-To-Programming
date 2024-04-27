@@ -26,12 +26,12 @@ Output can take various forms depending on the nature of the program and its int
 
 > In python         := print( )
 >
->> The print() function prints the specified message to the screen, or other standard output device. 
->>The message can be a string, or any other object, the object will be converted into a string before being written to the screen.
+> The print() function prints the specified message to the screen, or other standard output device. 
+> The message can be a string, or any other object, the object will be converted into a string before being written to the screen.
 
->>Syntax : print(object= separator= end= file= flush=)
+> Syntax : print(object= separator= end= file= flush=)
 
->>Here, details explanation of the above syntax :----
+> Here, details explanation of the above syntax :----
 
 >> - object      :- Any object, and as many as you like. Will be converted to string before printed. 
 >> - Sep         :- (optional) ; Specify how to separate the objects, if there is more than one, 
