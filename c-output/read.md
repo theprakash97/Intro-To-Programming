@@ -32,7 +32,8 @@ Output can take various forms depending on the nature of the program and its int
 
                      Here, details explanation of the above syntax :----
 
-                     object      :- Any object, and as many as you like. Will be converted to string before printed. Sep         :- (optional) ; Specify how to separate the objects, if there is more than one, 
+                     object      :- Any object, and as many as you like. Will be converted to string before printed. 
+                     Sep         :- (optional) ; Specify how to separate the objects, if there is more than one, 
                                     the default is space '   '. 
                      end         :- (optional) ;  Specify what to print at the end. Default is '\n' (line feed). 
                      file        :- (optional) ;  where the values are printed. Its default value 
