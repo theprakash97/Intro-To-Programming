@@ -48,7 +48,7 @@ throughout the program execution .
 
 ## Strongly Vs Weakly Typed
 
-| Strongly | In a strongly typed language, the data type of a variable is enforced at compile-time. This means that the compiler checks for type compatibility and raises an error if there's a type mismatch. Strongly typed languages provide more safety and prevent many common programming errors related to data type mismatches.|
+| Strongly |In a strongly typed language, the data type of a variable is enforced at compile-time.This means that the compiler checks for type compatibility and raises an error if there's a type mismatch. Strongly typed languages provide more safety and prevent many common programming errors related to data type mismatches.|
 | --- | --- |
 | Weakly | In a weakly typed language, the data type of a variable can be changed implicitly during runtime. Type conversions may happen automatically without explicit instructions from the programmer. Weakly typed languages offer more flexibility but can lead to unexpected behavior and errors if type conversions are not handled carefully.| 
 
