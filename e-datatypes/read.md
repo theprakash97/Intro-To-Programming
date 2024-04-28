@@ -143,9 +143,9 @@ Here these are some of the most common data types found in programming languages
 
 ## Advantages & Dis-advantages
 
-| Adavantages | Data types provide a way to categorize and organize data in a program, making it easier to understand and manage.<br>Each data type has a specific range of values it can hold, allowing for more precise control over the type of data being stored.<br>Data types help prevent errors and bugs in a program by enforcing strict rules about how data can be used and manipulated.|
+| Advantages | Dis-advantages | 
 | --- | --- | 
-| Dis-advantages | Using the wrong data type can result in unexpected behavior and errors in a program.<br>Some data types, such as long doubles or char arrays, can take up a large amount of memory and impact performance if used excessively.| 
+| Data types provide a way to categorize and organize data in a program, making it easier to understand and manage.<br>Each data type has a specific range of values it can hold, allowing for more precise control over the type of data being stored.<br>Data types help prevent errors and bugs in a program by enforcing strict rules about how data can be used and manipulated. | Using the wrong data type can result in unexpected behavior and errors in a program.<br>Some data types, such as long doubles or char arrays, can take up a large amount of memory and impact performance if used excessively. |
 
 ---
 
