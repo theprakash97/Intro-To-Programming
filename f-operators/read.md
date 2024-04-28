@@ -23,7 +23,7 @@ Operators are used to manipulate data in programs.
 
 ## Operator Precedence
 
-Operators precedence describes the order in which operators will be evaluated first in expressions . while the associativity in other hands, determines the direction ( typically direction occurs either left to right or right to left ) of operators if the multiple operands have the same precedence in expressions . 
+Operators precedence describes the order in which operators will be evaluated first in expressions . while the associativity in other hands, determines the direction ( typically direction occurs either left to right or right to left ) of operators if the multiple operators have the same precedence in expressions . 
 
 Operators are typically used to manipulate data of variables or literal values in programs . 
 
