@@ -52,8 +52,9 @@ In computer science, data strucutres are broadly divided into 2 types :--
 > Primitve data structures allow to store only single data. <br>
 > Primitive data types hold only a single data type value & they are addressed by  value.<br>
 > Primitive data types can’t have properties and methods , But some programming languages has implemented the primitive data types as Wrapper Classes  ( example : Java , JavaScript ) and added some additional properties and methods to them, which work like an object.<br>
-<br>
-> Primitve data structures are : 
+
+
+Primitve data structures are : 
 
 | Data | Example | Type | Size (Memory Allocation) |
 | --- | --- | --- | --- |
