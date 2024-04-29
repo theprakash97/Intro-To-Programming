@@ -27,23 +27,33 @@ Operators precedence describes the order in which operators will be evaluated fi
 
 Operators are typically used to manipulate data of variables or literal values in programs . 
 
+Operators with highest precedence are evaluate first : 
+
 | Level | Operator | 
 | --- | --- | 
 | 15 | ( ) |
-| 14 | ++,-- (postfix) |
-| 13 | ++,-- (prefix) |
-| 12 | not,+,- (logical_not, unary_plus, unary_minus) |
-| 11 | ** |
-| 10 | *, /, % |
+| 14 | ** | 
+| 13 | ++,-- (postfix) |
+| 12 | ++,-- (prefix) |
+| 11 | +,- (unary_plus, unary_minus) |
+| 10 | *, /, //, % |
 | 9 | +, - (addition, subtraction) | 
-| 8 | <, <= , >, >= |
-| 7 | ==, != | 
-| 6 | and ( logical AND ) |
-| 5 | or ( logical OR ) | 
-| 4 | ?:, =, :, +=, -=, *=, **=, /=, %=, |
+| 8 | ==, !=, <, <= , >, >=, is, is not, in, not in |
+| 7 | not ( logical NOT ) |
+| 6 | and ( logical AND ) | 
+| 5 | or  ( logical OR ) |
+| 4 | ?:, =, :, +=, -=, *=, **=, /=, %=, ( Assignment )|
 | 3 | , ( comma ) |
 
+If two operators have the same precedence, the expression is evaluated from left to right.<br><br>
+for example :<br>
+> print(5 + 4 - 7 + 3) # 5
+
 ---
+
+
+
+
 
 
 
